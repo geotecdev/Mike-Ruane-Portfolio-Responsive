@@ -51,7 +51,7 @@
         <!-- developer profile section -->
         <section class="row sectionContainer">
             <h3 class="sectionHeading">Developer Profile</h3>
-            <img src=".//images/profile-picture.jpg" class="profilePicture" />
+            <img src=".//images/profile-picture.jpg" alt="selfie of Mike Ruane with an oval shaped frame" class="profilePicture" />
             <!-- <p class="vbaLineText">"ThisWorkbook.Sheets("Sheet1").Range("F1:J1").EntireColumn.Hidden = True"</p> -->
             <p class="sectionText">
                 When I wrote my first line of vba four years ago, I didn't think of it as the first step to a career in software development; I was a project accountant at the time and my initial intention was no more lofty than creating a macro to hide some columns on an oversized Excel table. But in the weeks and months that followed, I started looking for more ways to script the boring aspects my job. Through that process, I became the "vba expert" at my company (Menard USA, a design/build geotechnical engineering firm) and started writing bespoke excel apps for co-workers. More broadly, I became fascinated with software development and the ways it can be used to simplify rote tasks and organize complex processes. And looking around the different departments in Menard, I saw that even in Engineering and Operations, people were still using plain, unconnected excel files for most forms. I realized that there were a lot of opportunities to develop apps that could streamline things and centralize data into a web based relatinal database. And more to the point, I could be that developer. This is when my dev career began in earnest: I resolved to learn C# .NET and SQL and started developing apps for Menard on the weekends.
@@ -72,23 +72,23 @@
         <section class="row skillsContainer">
             <h3 class="sectionHeading">Skills</h3>
             <figure class="col col-md-2 skillsCard">
-                <figcaption class="skillsTitle">Languages</figcaption>
+                <p class="skillsTitle">Languages</p>
                 <figcaption class="skillsCaption">C#, xaml, MSSQL, vba, python</figcaption>
             </figure>
             <figure class="col col-md-2 skillsCard">
-                <figcaption class="skillsTitle">Frameworks</figcaption>
+                <p class="skillsTitle">Frameworks</p>
                 <figcaption class="skillsCaption">.NET, ASP.NET, WPF, VSTO</figcaption>
             </figure>
             <figure class="col col-md-2 skillsCard">
-                <figcaption class="skillsTitle">Platform Management</figcaption>
+                <p class="skillsTitle">Platform Management</p>
                 <figcaption class="skillsCaption">Azure, SSMS, Salesforce, Sharepoint</figcaption>
             </figure>
             <figure class="col col-md-2 skillsCard">
-                <figcaption class="skillsTitle">Reporting Software</figcaption>
+                <p class="skillsTitle">Reporting Software</p>
                 <figcaption class="skillsCaption">Crystal Reports, Power BI, Matplotlib</figcaption>
             </figure>
             <figure class="col col-md-2 skillsCard">
-                <figcaption class="skillsTitle">SaaS Mobile Tools</figcaption>
+                <p class="skillsTitle">SaaS Mobile Tools</p>
                 <figcaption class="skillsCaption">MS PowerApps, MS Forms</figcaption>
             </figure>
         </section>
@@ -104,32 +104,32 @@
                 <li><a data-toggle="tab" href="#app4">Azure</a></li>
                 <li><a data-toggle="tab" href="#app5">Matplotlib</a></li>                    
             </ul>            
-            <article class="tab-content">
-                <summary id="app1" class="tab-pane fade in active">
-                    <img class="appThumbnail" src=".//images/asp-dot-net-img.PNG" />                    
+            <section class="tab-content">
+                <figure id="app1" class="tab-pane fade in active">
+                    <img class="appThumbnail" src=".//images/asp-dot-net-img.PNG" alt="split screen thumbnail with the landing page for Menard's web api, in front of a C# code file of a Controller class"/>                    
                     <p class="sectionText">I have built several production web services using C# and ASP.NET. The most notable example is Menard's web api, which is used as an interface for the database by many of my applications. Though the front end aspects of the api are fairly basic, I have a different web app that allows users to make edits to reference tables in our production tracking platform which uses bootstrap tables and layout.</p>
-                </summary>
-                <summary id="app2" class="tab-pane fade">
-                    <img class="appThumbnail" src=".//images/wpf-img.PNG" />
+                </figure>
+                <figure id="app2" class="tab-pane fade">
+                    <img class="appThumbnail" src=".//images/wpf-img.PNG" alt="screenshot from the xaml layout page in Visual Studio for a userform from the payroll processing application" />
                     <p class="sectionText">I have a fair amount of experience developing WPF for Menard; this framework has been my go-to for custom apps that don't require large scale distribution and can be run locally by the user. Examples include our payroll processing app, PM cost control app and the report aggregator program for our safety department, among others. This experience has made me familiar with the  MVVM design pattern and how to structure desktop applications with larger code bases.</p>
                     <br>
-                </summary>
-                <summary id="app3" class="tab-pane fade">
-                    <img class="appThumbnail" src=".//images/office-img.png" />
+                </figure>
+                <figure id="app3" class="tab-pane fade">
+                    <img class="appThumbnail" src=".//images/office-img.png" alt="thumbnail with an image from the excel vba editor, including an overlayed userform "/>
                     <p class="sectionText">Office integrations are where I got my start, and despite the broader push to get away from excel and other office products for data processing, I still work with them regularly. These include vba in macros and userforms, but also custom VSTO plug-ins and other C# based apps I have written to search, parse and complete other tasks on content in ms office format files.</p>
                     <br>
-                </summary>
-                <summary id="app4" class="tab-pane fade">
-                    <img class="appThumbnail" src=".//images/azure-img.png" />
+                </figure>
+                <figure id="app4" class="tab-pane fade">
+                    <img class="appThumbnail" src=".//images/azure-img.png" alt="screenshot of Menard's resources page from the Azure portal" />
                     <p class="sectionText">Azure is the PaaS cloud service I have used for almost all of my web apps and services at Menard. Our SQL database and web api run on the platform, and managing these resources on Azure is really at the core of what I do. I also have experience with some other Azure services that I have used for single purpose apps, like Azure Functions for automated updates.</p>
                     <br>
-                </summary>
-                <summary id="app5" class="tab-pane fade">
-                    <img class="appThumbnail" src=".//images/matplotlib-img.PNG" />
+                </figure>
+                <figure id="app5" class="tab-pane fade">
+                    <img class="appThumbnail" src=".//images/matplotlib-img.PNG" alt="split screen of a Matplotlib PowerBI chart visual and the python codebehind" />
                     <p class="sectionText">I have used matplotlib charts in several reports and applications, when there was a need to display more complex data sets. I used embedded matplotlib charts in the PowerBI based load test dashboard used by our engineering department.</p>
                     <br>
-                </summary>
-            </article>
+                </figure>
+            </section>
         </nav>
         <br><br>
 
