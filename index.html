@@ -45,7 +45,7 @@
         <br><br><br>
     </header>
 
-    <!-- main body -->
+    <!-- main body container-->
     <article class="container-fluid col-md-8">
 
         <!-- developer profile section -->
@@ -92,11 +92,46 @@
                 <figcaption class="skillsCaption">MS PowerApps, MS Forms</figcaption>
             </figure>
         </section>
+        <br>
+
+        <!-- applications tab control section -->
+        <nav class="row sectionContainer">
+            <h3 class="sectionHeading">Applications</h3>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#app1">ASP.NET</a></li>
+                <li><a data-toggle="tab" href="#app2">WPF Desktop</a></li>
+                <li><a data-toggle="tab" href="#app3">MS Office Tools</a></li>
+                <li><a data-toggle="tab" href="#app4">Azure</a></li>
+                <li><a data-toggle="tab" href="#app5">Matplotlib</a></li>                    
+            </ul>            
+            <article class="tab-content">
+                <summary id="app1" class="tab-pane fade in active">
+                    <img class="appThumbnail" src=".//images/asp-dot-net-img.PNG" />                    
+                    <p class="sectionText">I have built several production web services using C# and ASP.NET. The most notable example is Menard's web api, which is used as an interface for the database by many of my applications. Though the front end aspects of the api are fairly basic, I have a different web app that allows users to make edits to reference tables in our production tracking platform which uses bootstrap tables and layout.</p>
+                </summary>
+                <summary id="app2" class="tab-pane fade">
+                    <img class="appThumbnail" src=".//images/wpf-img.PNG" />
+                    <p class="sectionText">I have a fair amount of experience developing WPF for Menard; this framework has been my go-to for custom apps that don't require large scale distribution and can be run locally by the user. Examples include our payroll processing app, PM cost control app and the report aggregator program for our safety department, among others. This experience has made me familiar with the  MVVM design pattern and how to structure desktop applications with larger code bases.</p>
+                    <br>
+                </summary>
+                <summary id="app3" class="tab-pane fade">
+                    <img class="appThumbnail" src=".//images/office-img.png" />
+                    <p class="sectionText">Office integrations are where I got my start, and despite the broader push to get away from excel and other office products for data processing, I still work with them regularly. These include vba in macros and userforms, but also custom VSTO plug-ins and other C# based apps I have written to search, parse and complete other tasks on content in ms office format files.</p>
+                    <br>
+                </summary>
+                <summary id="app4" class="tab-pane fade">
+                    <img class="appThumbnail" src=".//images/azure-img.png" />
+                    <p class="sectionText">Azure is the PaaS cloud service I have used for almost all of my web apps and services at Menard. Our SQL database and web api run on the platform, and managing these resources on Azure is really at the core of what I do. I also have experience with some other Azure services that I have used for single purpose apps, like Azure Functions for automated updates.</p>
+                    <br>
+                </summary>
+                <summary id="app5" class="tab-pane fade">
+                    <img class="appThumbnail" src=".//images/matplotlib-img.PNG" />
+                    <p class="sectionText">I have used matplotlib charts in several reports and applications, when there was a need to display more complex data sets. I used embedded matplotlib charts in the PowerBI based load test dashboard used by our engineering department.</p>
+                    <br>
+                </summary>
+            </article>
+        </nav>
         <br><br>
-
-        <!-- applications section -->
-
-
 
     </article>
 
