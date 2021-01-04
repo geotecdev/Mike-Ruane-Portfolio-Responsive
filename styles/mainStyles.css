@@ -1,0 +1,107 @@
+/* main styles ==========================================*/
+/* ======================================================*/
+/* site background color */
+.siteBody {
+    height: 100%;
+    width: 100%;
+    background-color: #E4E5E6;
+}
+
+/* site navigation bar */
+#siteNavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+
+
+/* sticky footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    z-index: 3;
+ }
+
+ /* white section cards with shaddow border */
+ .sectionContainer {
+    background-color: ghostwhite;
+    min-height: 120px;
+    margin: 10px 10px 0px 10px;
+    box-shadow: 4px 3px 3px darkgray;
+    border-left: slategray;
+    border-left-style: solid;
+    border-left-width: 1px;
+ }
+
+  /* title bar for section elements */
+  .sectionHeading {
+    font-size: 18px;
+    min-height: 24px;
+    font-weight: bold;
+    background-color: lightsteelblue;
+    color: darkslategrey;
+    border-color: steelblue;
+    border-style: solid;
+    border-width: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: auto;
+    display: block;
+    text-indent: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+/* styling for text elements in section */
+ .sectionText {
+    text-indent: 10px;      
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.sectionBulletText {
+    text-indent: 10px;      
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ 
+ /* Index.html styles ==========================================*/
+ /* ============================================================*/
+
+
+
+.vbaLineText {
+    text-indent: 10px;      
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: firebrick;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;    
+}
+
+ /* rounded border for profile picture */
+ .profilePicture {
+    height: 100px;
+    width: 205px;
+    float: left;      
+    margin: 5px 10px 5px 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    z-index: 3;
+}
+
