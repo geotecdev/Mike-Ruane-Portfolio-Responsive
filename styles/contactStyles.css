@@ -1,0 +1,16 @@
+.contactInput {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    justify-items: center;
+}
+
+.buttonCard {
+    text-align: center;
+}
+
+.submitBtn {
+    min-height: 50px;
+    min-width: 170px;
+    
+}
